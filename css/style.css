@@ -1,0 +1,18 @@
+.header h1 {
+    text-align: center;
+}
+.header {
+    padding: 3em;
+}
+
+.navbar-nav .nav-item{
+    margin: 0 auto;
+}
+section.area {
+    padding-top: 5em;
+    background:#ccc;
+    height: 100vh;
+}
+.login {
+    background:rgba(22, 22, 22, 0.5)
+}
