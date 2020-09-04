@@ -13,7 +13,7 @@
     <body>
       
        <div class="menu">
-         <nav class="navbar navbar-expand-lg navbar-dark fixed-top" style="background-color: #0f0352;">
+         <nav class="navbar navbar-expand-lg navbar-dark fixed-top menu">
         
             <button class="navbar-toggler m-auto" type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
               <span class="navbar-toggler-icon"></span>
@@ -43,6 +43,24 @@
               <p>Tenha uma agenda digital personalizada com acesso a whatsapp sem adicionar os contatos em seu aparelho. </p>
               <p>Faça imagens com sus marca d'agua facilmente.</p>
               <p>Tenha acessa a vários conteúdos exclusivos!</p>
+             
+                
+                
+                
+                
+                <div id='server' >
+                <?
+                
+                
+                
+                $ip =  $_SERVER['REMOTE_ADDR'] ; 
+                
+                
+                if (!isset($id)){
+                  echo "seu ip é:";
+                  echo $ip;
+                }
+                ?></div>
             </div>
             <div class="col login text-light">
               <h1 class="text-center">Login</h1>
